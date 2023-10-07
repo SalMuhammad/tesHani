@@ -1,0 +1,104 @@
+body{
+
+    overflow-x: hidden;
+
+    font-family: "Poppins";
+}
+
+label{
+    color: #808080;
+}
+
+h1,h2,h4{
+    font-weight: bolder;
+}
+
+hr{
+    border: 2px solid #fff;
+}
+
+.logo-buttom h2{
+    display: inline-block;
+    font-weight: bolder !important;
+    font-size: 58,09px;
+    margin-left: 8px;
+}
+
+.nav-link{
+    margin: 0 20px;
+}
+
+.hero p,.nav-link{
+    color: #151515 !important;
+}
+
+#tentang p{
+    color: #000 !important;
+    
+}
+
+.btn-danger{
+    border-radius: 100px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.bg-danger,.btn-danger,.bg-icon-danger,.line{
+    background-color: #EB5757;
+}
+
+.text-danger{
+    color: #EB5757;
+}
+
+.bg-icon-danger{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+
+.form-control {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid #808080;
+    color: #808080;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.bg-paralax{
+    background-image: url("img/paralax.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2px 0px;
+}
+
+.by-quote{
+    font-size: 25px;
+    float: right;
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+}
+
+footer .fax i   {
+    font-size: 22.42px;
+    margin-right: 10px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 65px;
+}
+
+footer small{
+    opacity: 70%;
+}

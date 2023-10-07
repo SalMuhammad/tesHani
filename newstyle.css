@@ -1,0 +1,420 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    /* background-color: rgb(196, 30, 30); */
+	font-family: poppins;
+	background-image: url(img/paralax.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.latar-utama{
+	background-color: white;
+	position: relative;
+}
+
+/* bagian nav */
+nav{
+  border-bottom: 0px solid darkgrey;
+  box-shadow:0 0 6px rgba(0,0,0,0.12);
+  background-color: white;/*
+  position: fixed;
+  top: 0;*/
+}
+
+.wadah{
+  width: 1101px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  
+}
+
+
+.wadah .container-menu{
+	height: 72px;
+	padding: 200px 0;
+	text-transform: capitalize;
+	padding: 7px 0;
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	background-color: white;
+}
+/*
+.wadah .luhur{
+	position: fixed;
+	top: 10px;*/
+}
+
+.container .logo{
+	/*position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;*/
+	width: 55px;
+	background-color: orangered;
+	overflow: hidden;
+	height: 53px;
+}
+
+.logo img{
+	height: 58px;
+	width: 55px;
+	height: inherit;
+}
+
+.wadah ul li{
+  display: inline-block;
+  padding: 10px 5px;
+  margin-left: 30px;
+}
+
+li a{
+	color: #777;
+	text-decoration: none;
+	font-size: 17.8px;
+	font-weight: 500;
+
+}
+
+ul .kami{
+	background-color: orangered;
+	border-radius: 30px;
+	word-spacing: 1px;
+
+}
+
+.kami a{
+	text-transform: capitalize;
+	color: white;
+	padding: 20px 13px;
+}
+/*akhir bagian nav*/
+
+
+/*bagian konten*/
+.konten{
+	background-color: rgba(0, 220, 0, .0);
+}
+
+ .wadah .container{
+ 	margin-top: 135px;
+ 	height: 400px;
+ 	width: inherit;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	/* background-color: rgba(233, 0, 0, 0.658); */
+ }
+
+ .container div{
+ 	width: 50%;
+ }
+
+ .container .maksimal{
+/* 	padding-right: 47px;*/
+ }
+
+ .maksimal h2{
+ 	line-height: 42px;
+ 	font-size: 37px;
+ 	font-weight: medium;
+ }
+
+ .maksimal h2 span{
+ 	color: orangered;
+ }
+
+ p{
+ 	font-size: 17px;
+ 	margin-top: 16px;
+ 	line-height:23px;
+ }
+
+ .maksimal a{
+ 	background-color: orangered;
+ 	text-transform: capitalize;
+ 	padding:13px 33px;
+ 	border-radius: 30px;
+ 	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+ 	top: 30px;
+ }
+
+ .container img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+h2{
+ 	font-size: 37px;
+ 	font-weight: bold;
+ 	text-transform: capitalize;
+ }
+
+  .tentang .hr,.rh{
+ 	width: 100px;
+    height: 5.5px;
+    margin-top: 19px;
+    /*display: inline-block;*/
+ 	background-color: orangered;
+ 	border-radius: 29px;
+
+ }
+
+ .wadah .h2{
+	margin: 140px;
+	text-align: center;
+	display: block;
+	font-weight: medium;
+	font-size: 32px;
+}
+
+.tentang h2{
+	font-size: 29px;
+	text-align: left;
+}
+
+.tentang p{
+	margin-top: 40px;
+}
+
+.rh{
+	margin: -120px auto;
+}
+
+.wadah .baruled{
+	background-color: rgba(0, 0, 133, .0);
+	flex-wrap: wrap;
+	width: inherit;
+	padding: 20px 20px 40px;
+	height: inherit;
+	box-sizing: border-box;
+}
+
+.baruled div{
+	width: 32%;
+	margin:30px 0;
+	background-color: rgba(250, 0, 33, .2);
+}
+
+.kotak-bungkus h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 14px 0 14px;
+}
+
+div .buled{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	padding: 20px;  
+}
+
+
+.kotak-bungkus p{
+	text-align: justify;
+	font-size: 16px;
+}
+/*akhir konten*/
+
+/* bagian paralax*/
+
+.paralax{
+	height: 335px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.paralax .ganyel{
+	width: 700px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, .0);
+	text-shadow: 0 0 3px block;
+}
+
+.ganyel .judul{
+	text-align: center;
+	font-weight: medium;
+	font-size: 35px;
+}
+
+.ganyel p{
+	text-align: right;
+	font-size: 25px;
+}
+
+.hanap{ 
+	background-color: white;
+	padding-top: 90px;
+}
+.konten .kami{
+	text-align: center;
+	font-size: 32px;
+	font-weight: medium;
+}
+
+
+
+.garis{
+	margin: 24px auto 40px;
+}
+
+.wadah .container-input{
+	background-color: rgba(128, 0, 128, .0);
+	display: flex;
+}
+
+.container-input div.input{
+	background-color:  rgb(215, 155, 0, .0);
+	display: flex;
+	flex-wrap: wrap;
+	width: 40%;
+}
+
+.input .text-div{
+	width: 100%;
+	background-color: rgba(4, 155, 7, .0);
+	margin: 5px 0;
+	padding: 5px 0 0;
+	display: flex;
+	align-items: flex-end;
+	border-bottom: 2px solid #808080;
+	height: 60px;
+}
+
+.text-div .text{
+	width: inherit;
+	height: 35px;
+	background: rgba(0, 255, 254, .0);
+	border: none;
+	outline: none;
+	font-size: 20px;
+}
+
+.text-div button.btn{
+	background-color: orangered;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	height: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 25px;
+}
+
+.input .button{
+	border: none;
+}
+
+.text-div input::placeholder{
+	color: darkgray;
+	font-size: 19px;
+	transform: translate:-5px ;
+	text-transform: capitalize;
+}
+
+.container-input .contact{
+	background-color: rgba(0, 0, 0, .0);
+}
+
+
+.container-footer{
+	margin-top: -50px;
+	padding: 20px 0;
+	background-color:rgba(0, 0, 0, .8);
+}
+
+.wadah .footer-bawah{
+	margin: 20px 0;
+}
+
+/*.contact img{
+}
+
+
+.wadah .menufotter{
+	background-color: orangered;
+	position: relative;
+}
+
+.wadah .menufotter div.ucing{
+	text-align: right;
+	font-weight: medium;
+	color: white;
+	position: absolute;
+	right: 0;
+}*/
+div{box-sizing: border-box;}
+
+
+
+
+
+
+
